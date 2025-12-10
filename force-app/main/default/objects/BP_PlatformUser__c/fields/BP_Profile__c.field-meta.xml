@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BP_Profile__c</fullName>
+    <label>Perfil</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>BP_Product_PlatformUser__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Administrador</fullName>
+                <default>false</default>
+                <label>Administrador</label>
+            </value>
+            <value>
+                <fullName>Administrador + Operador</fullName>
+                <default>false</default>
+                <label>Administrador + Operador</label>
+            </value>
+            <value>
+                <fullName>Aprobador</fullName>
+                <default>false</default>
+                <label>Aprobador</label>
+            </value>
+            <value>
+                <fullName>Aprobador + Operador</fullName>
+                <default>false</default>
+                <label>Aprobador + Operador</label>
+            </value>
+            <value>
+                <fullName>Consultor</fullName>
+                <default>false</default>
+                <label>Consultor</label>
+            </value>
+            <value>
+                <fullName>De consulta</fullName>
+                <default>false</default>
+                <label>De consulta</label>
+            </value>
+            <value>
+                <fullName>Gestor de Operaciones</fullName>
+                <default>false</default>
+                <label>Gestor de Operaciones</label>
+            </value>
+            <value>
+                <fullName>Gestor de Usuarios</fullName>
+                <default>false</default>
+                <label>Gestor de Usuarios</label>
+            </value>
+            <value>
+                <fullName>Operador</fullName>
+                <default>false</default>
+                <label>Operador</label>
+            </value>
+            <value>
+                <fullName>Operador y aprobador</fullName>
+                <default>false</default>
+                <label>Operador y aprobador</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>CASH FINANCIERO</controllingFieldValue>
+            <controllingFieldValue>BUSINESS BANKING</controllingFieldValue>
+            <valueName>Aprobador</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CASH FINANCIERO</controllingFieldValue>
+            <valueName>Consultor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CASH FINANCIERO</controllingFieldValue>
+            <valueName>Operador</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CASH FINANCIERO</controllingFieldValue>
+            <valueName>Operador y aprobador</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BUSINESS BANKING</controllingFieldValue>
+            <valueName>Administrador</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BUSINESS BANKING</controllingFieldValue>
+            <valueName>Administrador + Operador</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BUSINESS BANKING</controllingFieldValue>
+            <valueName>Aprobador + Operador</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BUSINESS BANKING</controllingFieldValue>
+            <valueName>De consulta</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BUSINESS BANKING</controllingFieldValue>
+            <valueName>Gestor de Operaciones</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BUSINESS BANKING</controllingFieldValue>
+            <valueName>Gestor de Usuarios</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

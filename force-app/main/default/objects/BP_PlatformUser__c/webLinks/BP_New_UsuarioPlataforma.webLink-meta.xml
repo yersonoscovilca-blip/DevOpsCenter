@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BP_New_UsuarioPlataforma</fullName>
+    <availability>online</availability>
+    <displayType>massActionButton</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <height>600</height>
+    <linkType>url</linkType>
+    <masterLabel>Nuevo</masterLabel>
+    <openType>sidebar</openType>
+    <protected>false</protected>
+    <requireRowSelection>false</requireRowSelection>
+    <url>/lightning/o/BP_PlatformUser__c/new?defaultFieldValues=
+BP_RelatedCase__c={!Case.Id},
+BP_Product_PlatformUser__c={!URLENCODE(UPPER(TEXT(Case.BP_PlatformType__c)))}</url>
+</WebLink>
