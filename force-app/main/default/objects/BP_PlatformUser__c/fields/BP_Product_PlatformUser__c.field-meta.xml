@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BP_Product_PlatformUser__c</fullName>
+    <label>Producto</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>CASH FINANCIERO</fullName>
+                <default>false</default>
+                <label>CASH FINANCIERO</label>
+            </value>
+            <value>
+                <fullName>BUSINESS BANKING</fullName>
+                <default>false</default>
+                <label>BUSINESS BANKING</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
